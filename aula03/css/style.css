@@ -1,0 +1,35 @@
+body{
+	font-family: arial black;
+	color: black;
+}
+
+h1{
+	font-family: arial;
+	font-size: 60pt;
+	background-color: #8A2BE2;
+	padding: 30px;
+	margin: 60px; 
+	text-align: center;
+	color: #7FFF00;
+	width: 250px;
+}
+
+table{
+	font-family: arial;
+	background-color: purple;
+	text-align: center;
+	margin: 60px;
+}
+
+.destaque{
+	font-family: arial;
+	background-color: grey;
+	margin: 60px;
+	font-size: 45px;
+	font-weight: 200;
+}
+.pequeno{
+	font-family: arial black;
+	text-align: right;
+
+}
