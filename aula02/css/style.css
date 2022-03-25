@@ -1,0 +1,42 @@
+body{
+	font-family: "Tahoma";
+}
+
+.up {
+	text-align: center;
+}
+.up img{
+	height: 150px;
+}
+nav a{
+	font-size: 18px;
+	color: white;
+	display: inline block;
+	text-decoration: none;
+	padding: 20px;
+}
+.row2{
+	background-color: #30336b;
+	padding: 10px;
+}
+
+.row3{
+	padding: 20px;
+}
+
+.row4{
+	height: 350px;
+}
+.curso{
+	color: #30336b;
+	background-color: #dff9fb;
+}
+.curso img{
+	position: absolute;
+	right: 280px;
+}
+.curso .cc{
+	position: absolute;
+	height: 180px;
+	right: 280px;
+}
