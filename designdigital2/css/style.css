@@ -1,0 +1,114 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;	
+	background-color: #2d3436;
+	color: white;
+
+}
+
+button a{
+	color: white;
+	text-decoration: none;
+}
+
+nav{
+	text-align: right;
+}
+
+.logo{
+	position: relative;
+	top: 50px;
+	margin-left: 20px;
+	width: 300px;
+}
+
+.link{
+	position: relative;
+	top: 1px;
+}
+
+nav ul li{
+	font-size: 18px;
+	display: inline-block;
+	padding: 10px;
+}
+
+nav ul li a{
+	text-decoration: none;
+}
+
+.caixa{
+	color: white;
+	position: absolute;
+	width: 500px;
+	margin-top: 40px;
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.caixa p, .dp{
+	width: 450px;
+	position: relative;
+	margin-left: 25px;
+	text-align: justify;
+}
+
+.caixa h1{
+	font-size: 28px;
+	text-align: center;
+}
+
+section{
+	margin-top: 30px;
+	text-align: center;
+}
+
+article{
+	display: inline-block;
+	text-align: justify;
+	padding: 15px;
+	width: 324px;
+}
+
+article h2{
+	text-align: left;
+}
+
+section img{
+	border: 1px solid #ffffff;
+	width: 300px;
+}
+.banner{
+	background-image: url("../img/banner.jpg");
+	height: 450px;
+	border: 1px solid #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .logo{
+    position: relative;
+	top: 0px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .caixa{
+  	margin-left: 30px;
+    width: 350px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .caixa p{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  nav{
+  	padding-top: 20px;
+    text-align: center;
+  }
+}
+
+footer{
+	text-align: center;
+}

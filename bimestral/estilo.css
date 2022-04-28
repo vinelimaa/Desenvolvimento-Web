@@ -15,7 +15,7 @@ nav{
     
 }
 nav img{
-    margin-top: 100px;
+    margin-top: 50px;
     width: 180px;
     border-radius: 50%;
 }
@@ -39,23 +39,36 @@ nav a:hover{
     color: #ffffff;
     text-decoration: underline;
 }
-section{
+article{
     font-family: "Segoe UI";
     position: absolute;
     color: #ffffff;
-    border: 1px solid red;
     width: 70%;
     top: 100px;
-    height: 600px;
     left: 400px;
     text-align: justify;
 }
-section h1{
+article h1{
     font-weight: bolder;
+    border:  1px solid black; 
 }
-section img{
-    margin-left: 50px;
+.bio1{
+    margin-left: 15%;
+    border: 1px solid white;
+    margin-top: 100px;
+    width: 600px;
+}
+article img{
+    margin-left: 20%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
     width: 400px;
+    border:  1px solid black;
+}
+#hobbies{
+    margin-left: 20%;
+    margin-top: 300px;
 }
 .imgtxt{
     display: inline-block;
